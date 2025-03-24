@@ -57,8 +57,9 @@ def visualize_segmentation(X, y, num_images=5):
     plt.show()
 
 # Charger les données sauvegardées
-X_train = np.load("X_train.npy")
-y_train = np.load("y_train.npy")
+X_train = np.load(r"C:\Users\Admin\Desktop\MGSI\MGSI 4\PROJET(like pfa) TRAITEMENT & SEGMENTATION D IMAGES-MALADIES RENALES\X_train.npy")
+
+y_train = np.load(r"C:\Users\Admin\Desktop\MGSI\MGSI 4\PROJET(like pfa) TRAITEMENT & SEGMENTATION D IMAGES-MALADIES RENALES\y_train.npy")
 
 
 visualize_segmentation(X_train, y_train, num_images=5)  # Afficher les résultats pour 5 images du dataset d'entraînement
