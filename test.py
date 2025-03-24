@@ -1,3 +1,6 @@
+#this file is for loading our dataset and spliting it into train and test sets, and save the sets as npy files.
+#So drari ila bghitu ntuma diru had shi 3andkum dans vos machine, download had file mn github then budlu chemin dyal BASE_FOLDER l fin 3andkum dossier li fih les images AND csv file. safi executiw. <3
+
 import os
 import pandas as pd
 import numpy as np
