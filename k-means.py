@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 
-# Fonction pour appliquer K-Means à une image et segmenter en deux clusters
+# Fonction pour appliquer K-Means à une image et segmenter en deux clusters comment
 def kmeans_segmentation(image, n_clusters=2):
     # Vérifier si l'image est en float64, et la convertir en uint8
     if image.dtype == np.float64:
