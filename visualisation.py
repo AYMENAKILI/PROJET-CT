@@ -2,8 +2,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-X_train = np.load("X_train.npy")
-y_train = np.load("y_train.npy")
+X_train = np.load(r"C:\Users\Admin\Desktop\MGSI\MGSI 4\PROJET(like pfa) TRAITEMENT & SEGMENTATION D IMAGES-MALADIES RENALES\X_train.npy")
+
+y_train = np.load(r"C:\Users\Admin\Desktop\MGSI\MGSI 4\PROJET(like pfa) TRAITEMENT & SEGMENTATION D IMAGES-MALADIES RENALES\y_train.npy")
 
 
 def display_images(X, y, n_images=5):
